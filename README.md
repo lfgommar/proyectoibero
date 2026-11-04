@@ -13,3 +13,9 @@ Antes de entregar:
 - Completa en la portada tu nombre y matrícula.
 - Borra el recuadro naranja «Guía para pasarlo a mano» de la pregunta 6.
 - Confirma que el documental citado en la pregunta 3 es el que se vio en clase (serie *La Guerra Fría*, CNN, cap. 3).
+
+---
+
+## Otros proyectos en este repositorio
+
+- [`blitzlabs-navidad/`](blitzlabs-navidad/README.md) — Paquete de producción del anuncio navideño de BlitzLabs (35 s, 9:16): guion, prompts para Higgsfield, gráficos, subtítulos y montaje automático. Aún faltan las imágenes, los clips y el audio.
