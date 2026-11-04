@@ -1,0 +1,112 @@
+{
+  "proyecto": "BlitzLabs · Navidad · «De tu imaginación a sus manos»",
+  "salida": "09_salida/BlitzLabs_Navidad_35s_1080x1920.mp4",
+  "ancho": 1080,
+  "alto": 1920,
+  "fps": 30,
+  "duracion": 35.0,
+
+  "planos": [
+    {"id": "S01A", "inicio": 0.0,  "fin": 2.6,  "entrada": 0.4, "grado": "presente",
+     "titulo": "Fotografía antigua en manos de la hija; el pulgar acaricia el borde",
+     "refs": ["REF-03", "REF-08", "LOC-01"]},
+    {"id": "S01B", "inicio": 2.6,  "fin": 5.0,  "entrada": 0.4, "grado": "presente",
+     "titulo": "Cambio de foco de la foto al rostro adulto con lentes",
+     "refs": ["REF-03", "REF-08", "LOC-01"]},
+    {"id": "S02A", "inicio": 5.0,  "fin": 7.4,  "entrada": 0.5, "grado": "recuerdo",
+     "titulo": "Recuerdo: la niña mira la bailarina intacta con ilusión",
+     "refs": ["REF-04", "REF-05", "LOC-02"]},
+    {"id": "S02B", "inicio": 7.4,  "fin": 10.0, "entrada": 0.5, "grado": "recuerdo",
+     "titulo": "Detalle: bailarina con el brazo roto; el padre joven toca su hombro",
+     "refs": ["REF-07", "REF-02", "REF-04", "LOC-02"]},
+    {"id": "S03A", "inicio": 10.0, "fin": 12.8, "entrada": 0.4, "grado": "presente",
+     "titulo": "El padre mira la foto junto al boceto: de nostalgia a determinación",
+     "refs": ["REF-01", "REF-08", "REF-09", "LOC-03"]},
+    {"id": "S03B", "inicio": 12.8, "fin": 15.0, "entrada": 0.4, "grado": "presente",
+     "titulo": "Un hilo de luz dorada recorre el contorno del boceto",
+     "refs": ["REF-09", "REF-08", "LOC-03"]},
+    {"id": "S04A", "inicio": 15.0, "fin": 17.4, "entrada": 0.4, "grado": "presente",
+     "titulo": "Impresora FDM imprimiendo una pieza turquesa del tutú",
+     "refs": ["REF-06", "LOC-04"]},
+    {"id": "S04B", "inicio": 17.4, "fin": 20.0, "entrada": 0.4, "grado": "presente",
+     "titulo": "Manos del fabricante ensamblan el moño y revisan la figura",
+     "refs": ["REF-06", "LOC-04"]},
+    {"id": "S05",  "inicio": 20.0, "fin": 25.0, "entrada": 0.3, "grado": "presente",
+     "titulo": "Junto al árbol, el padre acerca la caja abierta; acercamiento lento a la hija",
+     "refs": ["REF-01", "REF-03", "REF-06", "REF-10", "LOC-01"]},
+    {"id": "S06A", "inicio": 25.0, "fin": 27.6, "entrada": 0.4, "grado": "presente",
+     "titulo": "Ella mira la muñeca, luego a su padre; sonrisa contenida",
+     "refs": ["REF-03", "REF-01", "REF-06", "LOC-01"]},
+    {"id": "S06B", "inicio": 27.6, "fin": 30.0, "entrada": 0.4, "grado": "presente",
+     "titulo": "Abrazo natural; la caja queda segura sobre la mesa",
+     "refs": ["REF-01", "REF-03", "REF-10", "LOC-01"]},
+    {"id": "S07",  "inicio": 30.0, "fin": 35.0, "entrada": 0.3, "grado": "presente",
+     "titulo": "Bailarina impresa junto a su caja; padre e hija desenfocados al fondo",
+     "refs": ["REF-06", "REF-10", "REF-01", "REF-03", "LOC-01"]}
+  ],
+
+  "transiciones": [
+    {"en": 5.0,  "tipo": "disolvencia", "duracion": 0.6, "nota": "entrada al recuerdo"},
+    {"en": 10.0, "tipo": "disolvencia", "duracion": 0.6, "nota": "salida del recuerdo"},
+    {"en": 30.0, "tipo": "disolvencia", "duracion": 0.4, "nota": "hacia el plano de producto"}
+  ],
+
+  "textos": [
+    {"id": "T1", "texto": "Hay regalos que\nnunca se olvidan.", "inicio": 0.6,  "fin": 4.6},
+    {"id": "T2", "texto": "Algunos recuerdos\nmerecen volver.",  "inicio": 10.8, "fin": 14.7},
+    {"id": "T3", "texto": "Recreado con\nimpresión 3D.",        "inicio": 15.6, "fin": 19.7}
+  ],
+
+  "locucion": [
+    {"id": "VO01", "texto": "Cuando era pequeña, le regaló una bailarina.",                               "inicio": 0.5,  "fin": 3.8},
+    {"id": "VO02", "texto": "Se rompió. Y nunca encontraron otra igual.",                                 "inicio": 5.6,  "fin": 9.2},
+    {"id": "VO03", "texto": "Esta Navidad, papá decidió recuperar ese recuerdo.",                         "inicio": 10.5, "fin": 14.2},
+    {"id": "VO04", "texto": "En BlitzLabs, lo convertimos en un regalo personalizado.",                   "inicio": 15.4, "fin": 19.3},
+    {"id": "VO05", "texto": "Porque recordar lo que ama… también es una forma de decir ‘te quiero’.",     "inicio": 25.3, "fin": 29.8},
+    {"id": "VO06", "texto": "BlitzLabs. De tu imaginación a sus manos.",                                  "inicio": 30.8, "fin": 33.9}
+  ],
+
+  "subtitulos": [
+    {"id": "SUB01", "texto": "Cuando era pequeña,\nle regaló una bailarina.",              "inicio": 0.5,  "fin": 3.9},
+    {"id": "SUB02", "texto": "Se rompió.\nY nunca encontraron otra igual.",                "inicio": 5.6,  "fin": 9.3},
+    {"id": "SUB03", "texto": "Esta Navidad, papá decidió\nrecuperar ese recuerdo.",        "inicio": 10.5, "fin": 14.3},
+    {"id": "SUB04", "texto": "En BlitzLabs, lo convertimos\nen un regalo personalizado.",  "inicio": 15.4, "fin": 19.4},
+    {"id": "SUB05", "texto": "Porque recordar lo que ama…",                                "inicio": 25.3, "fin": 27.1},
+    {"id": "SUB06", "texto": "también es una forma\nde decir ‘te quiero’.",                "inicio": 27.1, "fin": 29.9},
+    {"id": "SUB07", "texto": "BlitzLabs. De tu imaginación a sus manos.",                  "inicio": 30.8, "fin": 34.0, "quemado": false,
+     "nota": "No se quema en video: el texto principal de la pantalla final ya lo muestra. Sí va en el .srt."}
+  ],
+
+  "pantalla_final": {
+    "capas": [
+      {"id": "EC0_velo",       "inicio": 30.2, "fundido": 0.6},
+      {"id": "EC1_logo",       "inicio": 30.4, "fundido": 0.5, "subida": 14},
+      {"id": "EC2_lema",       "inicio": 30.7, "fundido": 0.5, "subida": 14},
+      {"id": "EC3_accion",     "inicio": 31.1, "fundido": 0.5, "subida": 12},
+      {"id": "EC4_secundario", "inicio": 31.3, "fundido": 0.5, "subida": 10}
+    ],
+    "lema": "De tu imaginación\na sus manos.",
+    "accion_1": "Cuéntanos tu idea.",
+    "accion_2_antes": "Escríbenos ",
+    "accion_2_clave": "«REGALO»",
+    "accion_2_despues": ".",
+    "secundario": "WhatsApp · Instagram",
+    "nombre_marca": "BlitzLabs"
+  },
+
+  "audio": {
+    "locucion_ganancia_db": 0.0,
+    "musica":  {"archivo": "08_audio/musica.wav", "ganancia_db": -15.0, "fundido_salida": 0.7},
+    "efectos": [
+      {"archivo": "08_audio/sfx/foto_roce.wav",       "inicio": 1.2,  "ganancia_db": -14.0},
+      {"archivo": "08_audio/sfx/lapiz_papel.wav",     "inicio": 11.0, "ganancia_db": -20.0},
+      {"archivo": "08_audio/sfx/impresora.wav",       "inicio": 15.0, "ganancia_db": -16.0},
+      {"archivo": "08_audio/sfx/encaje_pieza.wav",    "inicio": 18.6, "ganancia_db": -14.0},
+      {"archivo": "08_audio/sfx/caja_abre.wav",       "inicio": 20.2, "ganancia_db": -12.0},
+      {"archivo": "08_audio/sfx/papel_seda.wav",      "inicio": 21.0, "ganancia_db": -10.0},
+      {"archivo": "08_audio/sfx/caja_mesa.wav",       "inicio": 27.9, "ganancia_db": -14.0}
+    ],
+    "sonoridad_lufs": -14.0,
+    "pico_real_dbtp": -1.0
+  }
+}

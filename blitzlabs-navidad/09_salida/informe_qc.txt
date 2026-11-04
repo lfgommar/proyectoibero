@@ -1,0 +1,35 @@
+Archivo: 09_salida/ANIMATIC_BlitzLabs_Navidad_35s_1080x1920.mp4
+Video: h264 1080x1920 @ 30/1  OK
+Audio: aac 48000 Hz
+Duración: 35.000 s  OK
+Pistas de audio mezcladas: 0 (silencio)
+
+Origen de cada plano:
+  S01A  placa
+  S01B  placa
+  S02A  placa
+  S02B  placa
+  S03A  placa
+  S03B  placa
+  S04A  placa
+  S04B  placa
+  S05   placa
+  S06A  placa
+  S06B  placa
+  S07   placa
+
+Avisos:
+  - Falta locución VO01 (08_audio/vo/VO01.wav): «Cuando era pequeña, le regaló una bailarina.»
+  - Falta locución VO02 (08_audio/vo/VO02.wav): «Se rompió. Y nunca encontraron otra igual.»
+  - Falta locución VO03 (08_audio/vo/VO03.wav): «Esta Navidad, papá decidió recuperar ese recuerdo.»
+  - Falta locución VO04 (08_audio/vo/VO04.wav): «En BlitzLabs, lo convertimos en un regalo personalizado.»
+  - Falta locución VO05 (08_audio/vo/VO05.wav): «Porque recordar lo que ama… también es una forma de decir ‘te quiero’.»
+  - Falta locución VO06 (08_audio/vo/VO06.wav): «BlitzLabs. De tu imaginación a sus manos.»
+  - Falta música (08_audio/musica.wav).
+  - Falta efecto 08_audio/sfx/foto_roce.wav.
+  - Falta efecto 08_audio/sfx/lapiz_papel.wav.
+  - Falta efecto 08_audio/sfx/impresora.wav.
+  - Falta efecto 08_audio/sfx/encaje_pieza.wav.
+  - Falta efecto 08_audio/sfx/caja_abre.wav.
+  - Falta efecto 08_audio/sfx/papel_seda.wav.
+  - Falta efecto 08_audio/sfx/caja_mesa.wav.
