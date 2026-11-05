@@ -8,4 +8,4 @@
 
 También sirven `.flac`, `.aiff`, `.mp3` y `.m4a`. El montaje coloca cada archivo en su tiempo, atenúa la música bajo la voz, normaliza a −14 LUFS y avisa si alguna locución no cabe en su hueco. Si falta algún archivo, se monta sin él y lo indica en `09_salida/informe_qc.txt`.
 
-**Estado:** pendiente. No se ha generado locución, música ni efectos.
+**Estado (versión reducida):** las 6 locuciones están generadas con Text to Speech V2 (voz preset «Marisol»); falta confirmar al oído que el acento es de México. La música está generada con ElevenLabs Music v2 (36 s, instrumental). De los efectos hay 4: `foto_roce`, `impresora`, `caja_abre` y `papel_seda`. Faltan `lapiz_papel`, `encaje_pieza` y `caja_mesa`. **Licencias:** confirma las condiciones de uso comercial de Higgsfield según tu plan antes de pautar.

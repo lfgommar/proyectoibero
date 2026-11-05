@@ -19,4 +19,4 @@ Aquí van las referencias **aprobadas**. Son las imágenes que se adjuntan en to
 | LOC-03 | `LOC-03_mesa_padre.png` | Mesa de trabajo del padre |
 | LOC-04 | `LOC-04_taller_blitzlabs.png` | Taller de BlitzLabs |
 
-**Estado:** pendientes. No se han generado porque Higgsfield no estaba conectado en la sesión donde se preparó este paquete.
+**Estado (versión reducida):** hay 5 referencias generadas en Higgsfield: `REF-01_padre_47_frente.jpg`, `REF-03_hija_23_frente.jpg`, `REF-05_bailarina_original_frente.jpg`, `REF-06_bailarina_impresa_frente.jpg` y `REF-08_foto_antigua_contenido.jpg`. La niña, el padre joven y la sala del presente se fijaron con los fotogramas S02A, REF-08 y S05, que se usaron como referencia. Las demás variaciones y locaciones no se generaron. Detalle en [`../01_guion/registro_generacion.md`](../01_guion/registro_generacion.md).
