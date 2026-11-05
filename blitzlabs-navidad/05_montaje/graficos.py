@@ -83,6 +83,19 @@ def con_sombra(capa: Image.Image, suave: int = 12, opac: float = 0.55,
     return out
 
 
+def con_halo(capa: Image.Image, radio: int = 46, ganancia: float = 5.0,
+             opac: float = 0.42) -> Image.Image:
+    """Halo oscuro amplio y difuso detrás del texto: da contraste sobre fondos claros
+    (p. ej., el papel crema del boceto en S03B) y casi no se nota sobre fondos oscuros."""
+    alfa = capa.getchannel("A").filter(ImageFilter.GaussianBlur(radio))
+    s = Image.new("RGBA", (W, H), SOMBRA + (0,))
+    s.putalpha(alfa.point(lambda v: int(min(255, v * ganancia) * opac)))
+    out = lienzo()
+    out.alpha_composite(s)
+    out.alpha_composite(capa)
+    return out
+
+
 def bloque_texto(texto: str, f: ImageFont.FreeTypeFont, y_base_1: float,
                  interlinea: float, color=CREMA, tracking: float = 0) -> Image.Image:
     capa = lienzo()
@@ -107,7 +120,7 @@ def comprobar_area(img: Image.Image, nombre: str) -> None:
 def textos() -> None:
     f = fuente("titulo", 68)
     for t in TL["textos"]:
-        img = con_sombra(bloque_texto(t["texto"], f, y_base_1=372, interlinea=84))
+        img = con_halo(con_sombra(bloque_texto(t["texto"], f, y_base_1=372, interlinea=84)))
         img.save(DIR_G / f"{t['id']}.png", optimize=True)
         comprobar_area(img, t["id"])
 
@@ -153,13 +166,15 @@ def srt() -> None:
 
 # ---------------------------------------------------------------- pantalla final
 def velo() -> Image.Image:
-    """Degradado cálido arriba y abajo; el centro (la figura) queda limpio."""
+    """Degradado cálido arriba y abajo; el centro (la figura) queda limpio.
+    La parte inferior oscurece antes y más, para que la llamada a la acción se lea
+    aunque la figura ocupe esa zona del cuadro."""
     alfa = Image.new("L", (1, H))
     for y in range(H):
         if y < 1000:
             v = 0.66 * (1 - y / 1000) ** 1.6
-        elif y > 1100:
-            v = 0.72 * ((y - 1100) / (H - 1100)) ** 1.3
+        elif y > 1040:
+            v = min(0.80, 0.80 * (y - 1040) / (H - 1240))
         else:
             v = 0.0
         alfa.putpixel((0, y), int(v * 255))

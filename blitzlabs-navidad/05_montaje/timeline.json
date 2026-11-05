@@ -40,7 +40,7 @@
     {"id": "S06B", "inicio": 27.6, "fin": 30.0, "entrada": 0.4, "grado": "presente",
      "titulo": "Abrazo natural; la caja queda segura sobre la mesa",
      "refs": ["REF-01", "REF-03", "REF-10", "LOC-01"]},
-    {"id": "S07",  "inicio": 30.0, "fin": 35.0, "entrada": 0.3, "grado": "presente",
+    {"id": "S07",  "inicio": 30.0, "fin": 35.0, "entrada": 0.3, "velocidad": 0.6, "grado": "presente",
      "titulo": "Bailarina impresa junto a su caja; padre e hija desenfocados al fondo",
      "refs": ["REF-06", "REF-10", "REF-01", "REF-03", "LOC-01"]}
   ],

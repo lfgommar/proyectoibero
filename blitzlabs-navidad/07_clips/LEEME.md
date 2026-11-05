@@ -21,4 +21,4 @@ Descarga aquí cada clip animado con **el nombre exacto del plano**. El montaje 
 - Si un plano solo tiene fotograma clave, guárdalo como `<ID>.png` o `.jpg`: el montaje lo anima con un acercamiento lento para previsualizar.
 - Para elegir desde qué segundo del clip empieza el plano, cambia `"entrada"` en `05_montaje/timeline.json` (por defecto 0,3–0,5 s, para saltar los primeros fotogramas, que suelen ser inestables). También puedes ralentizar un plano con `"velocidad": 0.85`.
 
-**Estado:** pendientes. No hay clips generados.
+**Estado (versión reducida):** los 12 fotogramas clave están generados (`<ID>.jpg`). Hay 3 clips animados: `S05.mp4`, `S06A.mp4` y `S07.mp4`, de Cinema Studio Video v2 a 716 × 1284 y 24 fps; el montaje los escala a 1080 × 1920. En cuanto agregues el `.mp4` de cualquier otro plano, el montaje lo usa en lugar del fotograma.

@@ -395,7 +395,10 @@ def main() -> None:
         segmentos.append(ruta)
         print(f"  {p['id']:<5} {tipo}")
 
-    animatic = any(t != "clip" for t in origenes.values())
+    # ANIMATIC: falta material (placas). VERSION_REDUCIDA: todo es material generado,
+    # pero algún plano es un fotograma clave con acercamiento en lugar de un clip.
+    animatic = any(t == "placa" for t in origenes.values())
+    reducida = not animatic and any(t != "clip" for t in origenes.values())
     ent_v, fil_v, siguiente = grafo_video(segmentos, animatic)
     mezcla, presentes = mezclar_audio()
     if mezcla:
@@ -406,6 +409,8 @@ def main() -> None:
     final = RAIZ / TL["salida"]
     if animatic:
         final = SALIDA / ("ANIMATIC_" + final.name)
+    elif reducida:
+        final = SALIDA / ("VERSION_REDUCIDA_" + final.name)
     grafo = BUILD / "grafo.txt"
     grafo.write_text(";\n".join(fil_v), encoding="utf-8")
     ejecutar([*ent_v, *ent_a, "-filter_complex_script", str(grafo),
